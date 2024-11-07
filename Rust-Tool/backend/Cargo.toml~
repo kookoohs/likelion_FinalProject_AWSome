@@ -1,0 +1,12 @@
+[package]
+name = "backend"
+authors = ["Choigunwoo <gunwoo8873@outlook.kr"]
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+actix-web = {version = "4.9.0"}
+actix-cors = {version = "0.7.0"}
+sqlx = {version = "0.8.2", features = ["postgres", "runtime-tokio"]}
+dotenv = {version = "0.15.0"}
+tokio = {version = "1.40.0", features = ["full"]}
